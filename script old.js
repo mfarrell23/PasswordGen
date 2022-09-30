@@ -23,6 +23,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
+  console.log("writePassword function")
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -31,6 +32,7 @@ function writePassword() {
 }
 
 function generatePassword() {
+  console.log("generatePassword function")
   let returnedAllowedChars = ""
   if(uppCase.toLowerCase === 'yes'){
     console.log("uppCase: " + returnedAllowedChars)
