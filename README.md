@@ -10,3 +10,4 @@ This function was created within the java script file and checked using the cons
 readme.md
 ![screenshot](password.png)
 
+https://mfarrell23.github.io/PasswordGen/
